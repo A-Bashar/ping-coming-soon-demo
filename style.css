@@ -15,4 +15,30 @@
 body {
 	font-size: 20px;
 	font-family: 'Libre Franklin';
+	text-align: center;
+}
+
+header {
+	margin: 75px 0px 65px 0px;
+}
+
+#logo {
+	margin-bottom: 40px;
+}
+
+#heading {
+	margin-bottom: 15px;
+	font-weight: 300;
+	color: var(--light-text-color);
+}
+
+.bold-heading {
+	font-weight: 700;
+	color: var(--dark-text-color);
+}
+
+#subscribe {
+	font-weight: 300;
+	color: var(--dark-text-color);
+	font-size: 1em;
 }
