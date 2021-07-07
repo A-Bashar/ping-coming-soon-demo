@@ -2,6 +2,7 @@
 
 :root {
 	--primary-color: hsl(223, 87%, 63%);
+	--primary-color-light: hsl(223, 77%, 73%);
 	--text-box-color: hsl(223, 100%, 88%);
 	--light-text-color: hsl(0, 0%, 59%);
 	--dark-text-color: hsl(209, 33%, 12%);
@@ -41,4 +42,47 @@ header {
 	font-weight: 300;
 	color: var(--dark-text-color);
 	font-size: 1em;
+}
+
+#email {
+	border-color: var(--text-box-color);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 50px;
+	padding: 15px;
+	padding-left: 30px;
+	font-size: .8em;
+	width: 310px;
+	color: var(--dark-text-color);
+}
+
+#email:focus {
+	outline: none;
+}
+
+::placeholder {
+	color: var(--text-box-color);
+	font-weight: 300;
+}
+
+#signup-button {
+	background-color: var(--primary-color);
+	border-style: none;
+	padding: 15px;
+	border-radius: 50px;
+	color: white;
+	width: 150px;
+	margin-left: 15px;
+	box-shadow: 0px 0px 20px -5px var(--primary-color);
+	transition: background-color 500ms;
+}
+
+#signup-button:hover {
+	background-color: var(--primary-color-light);
+}
+
+#illustration {
+	margin-top: 50px;
+	max-width: 500px;
+	height: auto;
 }
