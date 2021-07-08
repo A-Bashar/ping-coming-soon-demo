@@ -17,4 +17,5 @@ button.addEventListener("click", ()=>{
 		errorText.style.setProperty("opacity","1");
 		errorStatus = true;
 	}
+	event.preventDefault();
 })
